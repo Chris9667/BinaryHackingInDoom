@@ -11,7 +11,7 @@ mov [esp+4], eax         // engine now thinks the sound pointer points here
 pop eax
 jmp return
 
-Soundfunktion:
+Soundfunction:
 jmp newmem
 nop
 return:
